@@ -1,0 +1,57 @@
+<body>
+    <form name="frmLatihan" method="get" action="#">
+        <table border="1" align="center" cellpadding="10" cellspacing="0" width="30%">
+            <thead>
+                <tr>
+                    <th colspan="2" bgcolor="pink">Form Register Membership</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label>Nama Lengkap</label></td>
+                    <td>
+                        <input type="text" name="nama" value="" size="15" maxlength="100"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Jenis Kelamin</label></td>
+                    <td>
+                        <input type="radio" name="gender" value="L"/>Laki-Laki&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="radio" name="gender" value="P"/>Perempuan
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Umur</label></td>
+                    <td>
+                        <input type="text" name="umur" value="" size="15" maxlength="100"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>No. Telepon</label></td>
+                    <td>
+                        <input type="text" name="notelp" value="" size="15" maxlength="100"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Jenis Membership Card</label></td>
+                    <td >
+                        <select name="jenisproduk">
+                            <option value="">--Jenis Membership Card--</option>
+                            <option value="elektronik">Membership Card berbasis poin<option>
+                            <option value="kosmetik">Membership Card berbayar</option>
+                            <option value="kebersihan">Membership Card Platinum</option>
+                        </select>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="2" bgcolor="pink">
+                        <input type="submit" name="proses" value="kirim"/>&nbsp;
+                        <input type="reset" name="unproses" value="batal"/>
+                    </th>
+                </tr>
+            </tfoot>
+        </table>
+    </form>
+</body>
